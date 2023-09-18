@@ -1,0 +1,21 @@
+{
+  "name": "wangsaf_bot",
+  "version": "1.0.0",
+  "description": "Bot Wangsaf",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
